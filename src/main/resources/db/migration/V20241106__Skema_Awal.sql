@@ -1,24 +1,24 @@
-CREATE TABLE payment_provider(
+create table payment_provider(
     id VARCHAR(36),
     PRIMARY KEY(id)
-)
+);
 
-CREATE TABLE invoice_type(
+create table invoice_type(
     id VARCHAR(36),
     PRIMARY KEY(id)
-)
+);
 
-CREATE TABLE invoice(
+create table invoice(
     id VARCHAR(36),
     PRIMARY KEY(id)
-)
+);
 
-CREATE TABLE virtual_account(
+create table virtual_account(
     id VARCHAR(36),
     PRIMARY KEY(id)
-)
+);
 
-CREATE TABLE payment(
+create table payment(
     id VARCHAR(36),
     PRIMARY KEY(id)
-)
+);
